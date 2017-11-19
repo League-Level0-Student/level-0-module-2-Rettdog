@@ -12,6 +12,11 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		int r = 0;
+		while(r!=89) {
+			
+		
+		Random gen = new Random();
+	r = gen.nextInt(312)-223;
 		
 		//2. Now make r random. 
 		//   Create an object of the Random class
@@ -26,5 +31,6 @@ public class IntroToRandom {
 
 		
 		System.out.println(r); 
+		}
 	}
 }
